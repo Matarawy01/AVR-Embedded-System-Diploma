@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1683983358 source:c:\users\abdel\downloads\embedded course\data structure\my try\linked list\stack\stack\stack.c
+	<stdio.h>
+
+1691846669 source:c:\users\abdel\downloads\embedded course\data structure\my try\linked list\stack\stack\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1695651537 source:c:\users\abdel\downloads\embedded course zaghloul\data structure\my try\linked list\stack\stack\main.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<stdlib.h>
+
+1683983358 source:c:\users\abdel\downloads\embedded course zaghloul\data structure\my try\linked list\stack\stack\stack.c
+	<stdio.h>
+

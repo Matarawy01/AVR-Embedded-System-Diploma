@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "nested interruption", "nested interruption\nested interruption.cproj", "{F97214AC-A9E1-4D97-B31C-CE8E04B1A295}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F97214AC-A9E1-4D97-B31C-CE8E04B1A295}.Debug|AVR.ActiveCfg = Debug|AVR
+		{F97214AC-A9E1-4D97-B31C-CE8E04B1A295}.Debug|AVR.Build.0 = Debug|AVR
+		{F97214AC-A9E1-4D97-B31C-CE8E04B1A295}.Release|AVR.ActiveCfg = Release|AVR
+		{F97214AC-A9E1-4D97-B31C-CE8E04B1A295}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

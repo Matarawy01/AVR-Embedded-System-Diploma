@@ -1,0 +1,36 @@
+﻿------ Build started: Project: Garage System, Configuration: Debug AVR ------
+Build started.
+Project "Garage System.cproj" (default targets):
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "CoreBuild" in file "C:\Program Files (x86)\Atmel\Atmel Studio 6.0\Vs\Compiler.targets" from project "C:\Users\abdel\Downloads\embedded course\interface\my try\Garage system\Garage System\Garage System\Garage System.cproj" (target "Build" depends on it):
+	Task "RunCompilerTask"
+		C:\Program Files (x86)\Atmel\Atmel Studio 6.0\make\make.exe all 
+		Building file: .././Garage System.c
+		Invoking: AVR/GNU C Compiler : (AVR_8_bit_GNU_Toolchain_3.4.1_830) 4.6.2
+		"C:\Program Files (x86)\Atmel\Atmel Studio 6.0\extensions\Atmel\AVRGCC\3.4.1.95\AVRToolchain\bin\avr-gcc.exe" -funsigned-char -funsigned-bitfields -O1 -fpack-struct -fshort-enums -g2 -Wall -c -std=gnu99 -MD -MP -MF "Garage System.d" -MT"Garage System.d" -MT"Garage System.o"  -mmcu=atmega32   -o"Garage System.o" ".././Garage System.c" 
+C:\Users\abdel\Downloads\embedded course\interface\my try\Garage system\Garage System\Garage System\lcd_driver.h(30,13): 'send_falling_edge' declared 'static' but never defined [-Wunused-function]
+		Finished building: .././Garage System.c
+		Building target: Garage System.elf
+		Invoking: AVR/GNU Linker : (AVR_8_bit_GNU_Toolchain_3.4.1_830) 4.6.2
+		"C:\Program Files (x86)\Atmel\Atmel Studio 6.0\extensions\Atmel\AVRGCC\3.4.1.95\AVRToolchain\bin\avr-gcc.exe" -o "Garage System.elf"  DIO_driver.o "Garage System.o" lcd_driver.o timer0.o   -Wl,-Map="Garage System.map" -Wl,--start-group -Wl,-lm  -Wl,--end-group  -mmcu=atmega32  
+		Finished building target: Garage System.elf
+		"C:\Program Files (x86)\Atmel\Atmel Studio 6.0\extensions\Atmel\AVRGCC\3.4.1.95\AVRToolchain\bin\avr-objcopy.exe" -O ihex -R .eeprom -R .fuse -R .lock -R .signature  "Garage System.elf" "Garage System.hex"
+		"C:\Program Files (x86)\Atmel\Atmel Studio 6.0\extensions\Atmel\AVRGCC\3.4.1.95\AVRToolchain\bin\avr-objcopy.exe" -j .eeprom  --set-section-flags=.eeprom=alloc,load --change-section-lma .eeprom=0  --no-change-warnings -O ihex "Garage System.elf" "Garage System.eep" || exit 0
+		"C:\Program Files (x86)\Atmel\Atmel Studio 6.0\extensions\Atmel\AVRGCC\3.4.1.95\AVRToolchain\bin\avr-objdump.exe" -h -S "Garage System.elf" > "Garage System.lss"
+		"C:\Program Files (x86)\Atmel\Atmel Studio 6.0\extensions\Atmel\AVRGCC\3.4.1.95\AVRToolchain\bin\avr-objcopy.exe" -O srec -R .eeprom -R .fuse -R .lock -R .signature  "Garage System.elf" "Garage System.srec"
+		"C:\Program Files (x86)\Atmel\Atmel Studio 6.0\extensions\Atmel\AVRGCC\3.4.1.95\AVRToolchain\bin\avr-size.exe" "Garage System.elf"
+		   text	   data	    bss	    dec	    hex	filename
+		   3288	    100	      0	   3388	    d3c	Garage System.elf
+	Done executing task "RunCompilerTask".
+	Task "RunOutputFileVerifyTask"
+				Program Memory Usage 	:	3388 bytes   10.3 % Full
+				Data Memory Usage 		:	100 bytes   4.9 % Full
+	Done executing task "RunOutputFileVerifyTask".
+Done building target "CoreBuild" in project "Garage System.cproj".
+Target "PostBuildEvent" skipped, due to false condition; ('$(PostBuildEvent)' != '') was evaluated as ('' != '').
+Target "Build" in file "C:\Program Files (x86)\Atmel\Atmel Studio 6.0\Vs\Avr.common.targets" from project "C:\Users\abdel\Downloads\embedded course\interface\my try\Garage system\Garage System\Garage System\Garage System.cproj" (entry point):
+Done building target "Build" in project "Garage System.cproj".
+Done building project "Garage System.cproj".
+
+Build succeeded.
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

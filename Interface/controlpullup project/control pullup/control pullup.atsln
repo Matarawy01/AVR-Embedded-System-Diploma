@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "control pullup", "control pullup\control pullup.cproj", "{20910810-FAB4-408C-B4A5-7EBB5736A370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20910810-FAB4-408C-B4A5-7EBB5736A370}.Debug|AVR.ActiveCfg = Debug|AVR
+		{20910810-FAB4-408C-B4A5-7EBB5736A370}.Debug|AVR.Build.0 = Debug|AVR
+		{20910810-FAB4-408C-B4A5-7EBB5736A370}.Release|AVR.ActiveCfg = Release|AVR
+		{20910810-FAB4-408C-B4A5-7EBB5736A370}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

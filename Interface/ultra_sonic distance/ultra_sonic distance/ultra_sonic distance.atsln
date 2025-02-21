@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "ultra_sonic distance", "ultra_sonic distance\ultra_sonic distance.cproj", "{5A392BD8-6226-4844-B0E9-E7D2FB026FCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A392BD8-6226-4844-B0E9-E7D2FB026FCD}.Debug|AVR.ActiveCfg = Debug|AVR
+		{5A392BD8-6226-4844-B0E9-E7D2FB026FCD}.Debug|AVR.Build.0 = Debug|AVR
+		{5A392BD8-6226-4844-B0E9-E7D2FB026FCD}.Release|AVR.ActiveCfg = Release|AVR
+		{5A392BD8-6226-4844-B0E9-E7D2FB026FCD}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

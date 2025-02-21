@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "send string using USART", "send string using USART\send string using USART.cproj", "{F7E430D4-4A12-492E-865B-50967A58AA8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7E430D4-4A12-492E-865B-50967A58AA8A}.Debug|AVR.ActiveCfg = Debug|AVR
+		{F7E430D4-4A12-492E-865B-50967A58AA8A}.Debug|AVR.Build.0 = Debug|AVR
+		{F7E430D4-4A12-492E-865B-50967A58AA8A}.Release|AVR.ActiveCfg = Release|AVR
+		{F7E430D4-4A12-492E-865B-50967A58AA8A}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
